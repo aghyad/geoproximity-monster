@@ -1,15 +1,16 @@
 ##About:
 
-This is a lightweight gem used to access CSV files and return an object (array of hashes) containing the data. 
-This gem assumes that the first line of the file contains the headers names (the attributes names).
+This is a lightweight gem used to:
+1. find the distance (in meters or miles) between a base point and any other point using latitude/longitude values. 
+2. You can also find the closest point from a pool of points to the base point. 
 
 ##Installation:
 
 ###using command line:
-    gem install csv-monster
+    gem install geoproximity-monster
 
 ###using bundler:
-    gem 'csv-monster'
+    gem 'geoproximity-monster'
 
 
 ##Usage Example:
@@ -73,7 +74,7 @@ This gem assumes that the first line of the file contains the headers names (the
 
 ## Changelog
 
-Look at the [CHANGELOG](https://github.com/aghyad/csv-monster/blob/master/CHANGELOG.md) to see what's changed.
+Look at the [CHANGELOG](https://github.com/aghyad/geoproximity-monster/blob/master/CHANGELOG.md) to see what's changed.
 
 ## Contributing
 
